@@ -16,9 +16,9 @@ body {
 
 .resume-header {
 	
-	
     background-color: #BBDBC5;
 	color:black
+	
 }
 
 .resume-main {
@@ -56,4 +56,8 @@ body {
 }
 .language-progress {
 	background-color:green 
+}
+
+.resume-header{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
