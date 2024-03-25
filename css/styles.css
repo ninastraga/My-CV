@@ -3,31 +3,33 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* Styles for the body */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 body {
 	color: #202030;
 	background-color: #104620;
-	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-	
     background-color: #BBDBC5;
-	color:black
+	color: black;
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	align-items: center;
+	text-align: center
 	
 }
-
 .resume-main {
+
 	background-color: #FFFFFF;
 }
 
 .resume-aside {
 	background-color: #9ECEA2;
-	color: white
+	color: white;
+	
 }
 
 /* Styles for lists in the document */
@@ -35,7 +37,7 @@ body {
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
-	display: inline-block;
+	display: inline-table;
 	width: 1em;
 	margin-left: -1em;
 }
@@ -55,9 +57,33 @@ body {
 	flex-basis: 1.4em;
 }
 .language-progress {
-	background-color:green 
+	background-color:green;
 }
 
-.resume-header{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+.biography-list {
+	align-content: center;
+	
+}
+.language-list {
+	align-content: center;
+	text-decoration-line: underline;
+	
+}
+	
+.fst-italic {
+	align-content: center;
+	text-align: center;
+		
+	
+}
+
+.language-progress-border {
+	border-color: green !important;
+		
+}
+
+
+h2 {
+	font-family: "Truculenta", sans-serif;
 }
